@@ -2,63 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="236d19e5-50da-4422-a3c9-8bb82ac8a3b3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/coldwater.geojson" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/.WCMC001_ColdCorals2017_Pt_v5.dbf.icloud" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/.WCMC001_ColdCorals2017_Py_v5.shp.icloud" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/.WCMC001_Metadata_ColdCorals2017.dbf.icloud" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Pt_v5.cpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Pt_v5.prj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Pt_v5.sbn" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Pt_v5.sbx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Pt_v5.shp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Pt_v5.shp.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Pt_v5.shx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Py_v5.cpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Py_v5.dbf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Py_v5.prj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Py_v5.sbn" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Py_v5.sbx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Py_v5.shp.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Py_v5.shx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_Metadata_ColdCorals2017.cpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_Metadata_ColdCorals2017.dbf.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/info/arc.dir" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/02_Resources/Freiwald04ColdWaterCoralReefs.url" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/02_Resources/Thumbs.db" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/03_Metadata/14_001_WCMC001_ColdCorals2017_v5.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/LICENSE.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/READ ME.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/.WCMC008_CoralReef2010_Py_v4.dbf.icloud" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/.WCMC008_CoralReef2010_Py_v4.shp.icloud" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/Metadata_CoralReefs.CPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/Metadata_CoralReefs.dbf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/Metadata_CoralReefs.dbf.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Pt_v4.CPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Pt_v4.dbf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Pt_v4.prj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Pt_v4.sbn" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Pt_v4.sbx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Pt_v4.shp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Pt_v4.shp.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Pt_v4.shx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Py_v4.CPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Py_v4.prj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Py_v4.sbn" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Py_v4.sbx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Py_v4.shp.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Py_v4.shx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/info/arc.dir" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/02_Resources/Andrefouet06Proc10thIntCorReefSymp.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/02_Resources/WCMC-008-CoralReefs2010.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/03_Metadata/Thumbs.db" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/03_Metadata/WCMC008_CoralReefs2010_v4.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/LICENSE.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreeflocations/READ ME.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/coralreefs.geojson" afterPath="" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/scripts.js" afterPath="$PROJECT_DIR$/js/scripts.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -88,8 +32,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="358" column="66" lean-forward="false" selection-start-line="358" selection-start-column="66" selection-end-line="358" selection-end-column="66" />
+            <state relative-caret-position="297">
+              <caret line="280" column="24" lean-forward="true" selection-start-line="280" selection-start-column="24" selection-end-line="280" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -243,12 +187,12 @@
       <workItem from="1543029780943" duration="13995000" />
       <workItem from="1543639768311" duration="16092000" />
       <workItem from="1543898865036" duration="2385000" />
-      <workItem from="1543964766181" duration="29525000" />
+      <workItem from="1543964766181" duration="29848000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61997000" />
+    <option name="totallyTimeSpent" value="62320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="181" y="23" width="1099" height="777" extended-state="0" />
@@ -427,8 +371,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="358" column="66" lean-forward="false" selection-start-line="358" selection-start-column="66" selection-end-line="358" selection-end-column="66" />
+        <state relative-caret-position="297">
+          <caret line="280" column="24" lean-forward="true" selection-start-line="280" selection-start-column="24" selection-end-line="280" selection-end-column="24" />
           <folding />
         </state>
       </provider>
