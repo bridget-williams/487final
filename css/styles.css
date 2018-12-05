@@ -332,10 +332,11 @@ h2{
 
     #site{
         display: grid;
-        grid-template-columns:  repeat(4,25%) ;
-        grid-template-rows: 80px 250px 600px 400px 500px 500px 500px 1000px;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 80px 400px 1000px 500px 620px 600px 700px 700px;
         grid-template-areas:
                 'main-menu'
+                'intro'
                 'coral-diagram'
                 'trouble'
                 'matters'
@@ -344,26 +345,73 @@ h2{
                 'near'
                 'footer'
     ;
-        max-width: 100%;
+        width: 100%;
         margin:0;
         padding:0;
+        overflow-x: hidden;
+    }
+    h1{
+        font-size: 14pt;
     }
 
-    #diagram-section, #locations, #matters, #trouble{
-        grid-column: 1/5;
+    #main-menu{
+        flex-basis: max-content;
+    }
+
+    #hamburger-menu{
+        position:fixed;
+        align-self: baseline;
+        flex-direction: column;
+        background:#FBEDA3;
+        height:250px;
+        top: 55px;
+
+        padding-top: 5pt;
+        text-align: center;
+    }
+
+    #coral-diagram-text{
+        position: absolute;
+        left:30px;
+        top: 960px;
+        width: 90%;
+        background:#FBEDA3;
+        transition: .3s ease;
+        padding: 10px;
+    }
+
+    #intro-text{
+        height:500px;
+        max-width: 100%;
+    }
+    #main-menu, #diagram-section, #locations, #matters, #trouble{
+        grid-column: 1/1;
     }
 
     #trouble{
-        grid-row: 4/5 ;
+        grid-row: 4/5;
     }
 
     #matters{
-        grid-row: 5/6 ;
+        grid-row: 5/6;
     }
     #player2{
         grid-row: 5/6 ;
-        grid-column: 3/5;
+        grid-column: 1/5;
         z-index:10000;
+    }
+
+    #player1{
+        grid-row: 4/5 ;
+        grid-column: 1/5;
+        z-index:10000;
+    }
+
+
+    #locationsTitle{
+        grid-row:6/7;
+        top:60px;
+        height: 20px;
     }
 
     #locations{
@@ -371,11 +419,19 @@ h2{
     }
 
     #case-study{
-        grid-row: 7/8 ;
+        grid-row: 7/8;
+        padding: 20pt;
     }
 
     #near-me{
         grid-row: 8/9;
+        padding: 20px;
+    }
+    #coral{
+        max-width: 90%;
+    }
+    #toTop{
+        right:0;
     }
 
 

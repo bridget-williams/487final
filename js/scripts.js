@@ -12,7 +12,8 @@ function initMap() {
         document.getElementById('locations'),
         {
             zoom: 7,
-            center: center
+            center: center,
+            disableDefaultUI: true
         });
 
 var reefdata = [];
@@ -77,12 +78,13 @@ $('#closeVideo2').click(function(){
     player2.pauseVideo();
 });
 
-//for spawning video
+//for heat video
 var heat = $('#heat');
 heat.click(function(){
-    console.log('bleaching clicked');
+    console.log('heat clicked');
     $('#player1').toggleClass('hidden');
     $('#closeVideo1').css('display','block');
+
 });
 
 //close player video on click of x
@@ -152,12 +154,19 @@ $(function(){
         $('#hamburger-menu').toggleClass('hidden');
     });
 
+    $('.hamburger-item').click(function(){
+        $('#hamburger-menu').toggleClass('hidden');
+    });
+
 
     $('#coralsvg').mousemove(function(e) {
-        window.x = e.pageX;
-        window.y = e.pageY;
-        showHover();
-    });
+        if(window.width()>768){
+            window.x = e.pageX;
+            window.y = e.pageY;
+            showHover();
+        }
+
+    })
 
     function showHover() {
         $("#coral-diagram-text").css("top", y + 10);
