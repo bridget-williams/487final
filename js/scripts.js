@@ -159,14 +159,14 @@ $(function(){
     });
 
 
-    $('#coralsvg').mousemove(function(e) {
-        if(window.width()>768){
+    if($(window).width()>768){
+        $('#coralsvg').mousemove(function (e) {
             window.x = e.pageX;
             window.y = e.pageY;
             showHover();
-        }
 
-    })
+        });
+    }
 
     function showHover() {
         $("#coral-diagram-text").css("top", y + 10);

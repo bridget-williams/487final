@@ -159,11 +159,9 @@ h2{
 }
 
 #intro-text{
-    margin:50px;
-    padding: 30px;
+    padding: 20px;
     font-size: 16pt;
-    height: 150px;
-    width: 100%;
+    height: 200px;
     background: #F4EDCE;
 }
 
@@ -333,7 +331,7 @@ h2{
     #site{
         display: grid;
         grid-template-columns: 1fr ;
-        grid-template-rows: 80px 400px 1000px 500px 620px 600px 700px 700px;
+        grid-template-rows: 80px 400px 1000px 500px 670px 600px 700px 700px;
         grid-template-areas:
                 'main-menu'
                 'intro'
@@ -349,6 +347,7 @@ h2{
         margin:0;
         padding:0;
         overflow-x: hidden;
+        margin-left:7px;
     }
     h1{
         font-size: 14pt;
@@ -373,7 +372,7 @@ h2{
     #coral-diagram-text{
         position: absolute;
         left:30px;
-        top: 960px;
+        top: 970px;
         width: 90%;
         background:#FBEDA3;
         transition: .3s ease;
@@ -428,10 +427,10 @@ h2{
         padding: 20px;
     }
     #coral{
-        max-width: 90%;
+        max-width: 100%;
     }
     #toTop{
-        right:0;
+        right:30px;
     }
 
 
