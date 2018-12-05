@@ -1,8 +1,8 @@
 //Google Maps API
 // Initialize and add the map
 var center = {
-    lat:35.9155778,
-        lng: -79.0523667
+    lat:35.0527,
+        lng: -78.8784
 };
 
 
@@ -11,40 +11,43 @@ function initMap() {
     var map = new google.maps.Map(
         document.getElementById('locations'),
         {
-            zoom: 2,
+            zoom: 7,
             center: center
         });
-var urls = ['./coralreefs.geojson'];
-var data = [];
-urls.forEach(function(url){
+
+var reefdata = [];
     $.ajax({
         type:'GET',
-        url: url,
-        data: data,
-        success: function(data){
-            console.log(data);
-            for (var i = 0; i < data.features.length; i++) {
-                if (data.features[0]) {
-                    var coords = data.features[i].geometry.coordinates;
-                    var latLng = new google.maps.LatLng(coords[1], coords[0]);
-                    var marker = new google.maps.Marker({
-                        position: latLng,
-                        map: map
-                    });
-                } else {
-                    var coords2 = data.features[i].geometry.coordinates;
-                    var latLng2 = new google.maps.LatLng(coords[1], coords[0]);
-                    var marker2 = new google.maps.Marker({
-                        position: latLng,
-                        map: map
-                    })
-                }
+        //data locaded from arcgis api based on a North Carolina Dept. Of Environmental Quality Data Set
+        url: 'https://opendata.arcgis.com/datasets/7ee54636ff024259a579b7e57d241ae9_0.geojson',
+        data: reefdata,
+        success: function(reefdata){
+            console.log(reefdata);
+            for (var i = 0; i < reefdata.features.length; i++) {
+
+                var coords = reefdata.features[i].geometry.coordinates;
+                var latLng = new google.maps.LatLng(coords[1], coords[0]);
+                var infowindow = new google.maps.InfoWindow({
+                    content: reefdata.features[i].properties.reefname + '</br>' + reefdata.features[i].properties.region
+                });
+
+                var marker = new google.maps.Marker({
+                    icon:'./img/logomd.svg',
+                    position: latLng,
+                    map: map
+                });
+
+                marker.addListener('click', function() {
+                    infowindow.open(map, marker);
+                });
+
+
             }
         }, error: function(){
             console.log('couldn\'t load map data');
         }
     });
-});
+
 
 
 }
@@ -172,49 +175,49 @@ $(function(){
 
     $('#body').hover(function(){
         console.log('body clicked');
-        coralInfo = 'here is some information about coral bodies';
+        coralInfo = 'The coral polyp body is soft, and resembles a tiny sea anemone. ';
         console.log(coralInfo);
         coralInfoDiv.html(coralInfo);
     });
 
     $('#stomach').hover(function(){
         console.log('stomach clicked');
-        coralInfo = 'here is some information about coral stomachs';
+        coralInfo = 'If a coral is using its mouth to gather food, it is digested here. Most corals cannot rely solely on digested food to live, and will die if this is their only source of nutrition. ';
         console.log(coralInfo);
         coralInfoDiv.html(coralInfo);
     });
 
     $('#mouth').hover(function(){
         console.log('mouth clicked');
-        coralInfo = 'here is some information about coral mouths';
+        coralInfo = 'When a coral expells its algae due to stress, it can use its mouth to suck in small particulates from the sea water to maintain its energy levels for a short period of time. ';
         console.log(coralInfo);
         coralInfoDiv.html(coralInfo);
     });
 
     $('#tentacles').hover(function(){
         console.log('tentacles clicked');
-        coralInfo = 'here is some information about coral tentacles';
+        coralInfo = 'Many corals have tiny tentacles to help draw particulates into their mouthes for heterotrophy, or the use of food that was not self-produced. ';
         console.log(coralInfo);
         coralInfoDiv.html(coralInfo);
     });
 
     $('#algae').hover(function(){
         console.log('algae clicked');
-        coralInfo = 'here is some information about coral algae';
+        coralInfo = 'Corals get their bright colors from the algae that live in its tissue. Coral polyps themselves are usually transparent or colorless.';
         console.log(coralInfo);
         coralInfoDiv.html(coralInfo);
     });
 
     $('#stingers').hover(function(){
         console.log('stingers clicked');
-        coralInfo = 'here is some information about coral stingers';
+        coralInfo = 'Some corals have stingers that help them catch prey, much like their cousins the sea anemone.';
         console.log(coralInfo);
         coralInfoDiv.html(coralInfo);
     });
 
     $('#skeleton').hover(function(){
         console.log('skeleton clicked');
-        coralInfo = 'here is some information about coral skeletons';
+        coralInfo = 'The large coral structures we see on reefs are actually just  Calcium Carbonate deposits created as corals grow covered by a thin layer of living tissue.';
         console.log(coralInfo);
         coralInfoDiv.html(coralInfo);
     });
@@ -257,7 +260,7 @@ $(function(){
             }
         });
 
-
+    var data=[];
 
     function search (){
            input = $('#place').val();

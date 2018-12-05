@@ -11,7 +11,7 @@ body{
 #site{
     display: grid;
     grid-template-columns:  repeat(4,25%) ;
-    grid-template-rows: 80px 250px 700px 400px 500px 500px 500px;
+    grid-template-rows: 80px 250px 700px 400px 500px 300px 500px;
     grid-template-areas:
             'main-menu'
             'coral-diagram'
@@ -59,6 +59,10 @@ h2{
     font-size: 20pt;
     font-family: 'Montserrat', sans-serif;
     z-index:5000;
+}
+
+#trouble, #matters, #case-study, .card, #intro-text, #what-is{
+    line-height: 20pt;
 }
 
 #toTop {
@@ -172,11 +176,12 @@ h2{
 
 #coral-diagram-text{
     position: absolute;
-    top: 500px;
+    top: 600px;
     right: 100px;
     width: 200px;
     background:#FBEDA3;
-    transition: .5s ease;
+    transition: .3s ease;
+    padding: 5px;
 }
 
 #what-is{
@@ -193,11 +198,12 @@ h2{
 
 /*Why coral is in trouble styles*/
 #trouble{
-    padding:10px;
+    padding:15px;
     grid-row: 4/5;
     grid-column: 1/3;
     background: #4dabb2;
 }
+
 
 .more{
     color: #F4E492;
@@ -247,7 +253,7 @@ h2{
 
 /*Why Coral matters styles*/
 #matters{
-    padding:10px;
+    padding:15px;
     grid-row: 4/5;
     grid-column: 3/5;
     background: #9cf3f7;
@@ -270,6 +276,7 @@ h2{
     grid-row:6/7;
     grid-column: 1/5;
     background: #85ccca;
+    padding: 15px;
 }
 /*Corals near me styles*/
 #near-me{
@@ -292,6 +299,9 @@ h2{
     align-content: flex-start;
 }
 
+#results:hover{
+    cursor: ew-resize;
+}
 
 .card{
     padding: 15pt;
@@ -301,6 +311,7 @@ h2{
     height: auto;
     width: 900px;
 }
+
 
 .cardText{
     width: 300px;
