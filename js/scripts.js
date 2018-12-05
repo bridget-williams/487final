@@ -16,6 +16,7 @@ function initMap() {
             disableDefaultUI: true
         });
 
+    //get the reef data
 var reefdata = [];
     $.ajax({
         type:'GET',
@@ -31,15 +32,11 @@ var reefdata = [];
                 var infowindow = new google.maps.InfoWindow({
                     content: reefdata.features[i].properties.reefname + '</br>' + reefdata.features[i].properties.region
                 });
-
+//add a marker for each reef with custom icon
                 var marker = new google.maps.Marker({
                     icon:'./img/logomd.svg',
                     position: latLng,
                     map: map
-                });
-
-                marker.addListener('click', function() {
-                    infowindow.open(map, marker);
                 });
 
 
@@ -153,21 +150,32 @@ $(function(){
     $('#hamburger').click(function(){
         $('#hamburger-menu').toggleClass('hidden');
     });
-
+    //close hamburger menu when navigating away from it
     $('.hamburger-item').click(function(){
         $('#hamburger-menu').toggleClass('hidden');
     });
 
+    $('#toSources').click(function(){
+        $('#sources').toggleClass('hidden');
+    });
 
+    $('#close-sources').click(function(){
+        $('#sources').toggleClass('hidden');
+    });
+
+
+
+
+//make coral info div move with mouse on desktop
     if($(window).width()>768){
-        $('#coralsvg').mousemove(function (e) {
+        $('#coral').mousemove(function (e) {
             window.x = e.pageX;
             window.y = e.pageY;
             showHover();
 
         });
     }
-
+//function used for setting position of coral info div
     function showHover() {
         $("#coral-diagram-text").css("top", y + 10);
         $("#coral-diagram-text").css("left", x + 10);
@@ -178,9 +186,6 @@ $(function(){
     var coralInfoDiv = $('#coral-diagram-text');
 ;
 
-    $('#coralsvg').click(function(){
-        console.log('coral clicked');
-    });
 
     $('#body').hover(function(){
         console.log('body clicked');
@@ -259,16 +264,18 @@ $(function(){
 
 
     //for the find a coral search
+    //search on click
         $('#search').on('click', function(){
           search();
         });
-
+    //seach on enter
         $('#place').on('keyup', function(e){
             if(e.keyCode===13) {
                 search();
             }
         });
 
+    //load the data fom the inatualist api for use in the coral search
     var data=[];
 
     function search (){
@@ -294,6 +301,7 @@ $(function(){
                         console.log(data.results);
 
                         for(var i =0; i< data.results.length; i++){
+                            //create cards for each of the first 30 results, if anything is null display a different message
                             console.log(data.results[i]);
                             var photo = data.results[i].photos[0].url;
                             if(data.results[i].photos[0].url === 'null' || data.results[i].photos[0].url == null){
@@ -341,8 +349,6 @@ $(function(){
 
         }
 
-
-    //Ajax
 
 
 

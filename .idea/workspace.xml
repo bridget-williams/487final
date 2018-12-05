@@ -3,6 +3,59 @@
   <component name="ChangeListManager">
     <list default="true" id="236d19e5-50da-4422-a3c9-8bb82ac8a3b3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/coldwater.geojson" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/.WCMC001_ColdCorals2017_Pt_v5.dbf.icloud" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/.WCMC001_ColdCorals2017_Py_v5.shp.icloud" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/.WCMC001_Metadata_ColdCorals2017.dbf.icloud" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Pt_v5.cpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Pt_v5.prj" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Pt_v5.sbn" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Pt_v5.sbx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Pt_v5.shp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Pt_v5.shp.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Pt_v5.shx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Py_v5.cpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Py_v5.dbf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Py_v5.prj" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Py_v5.sbn" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Py_v5.sbx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Py_v5.shp.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_ColdCorals2017_Py_v5.shx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_Metadata_ColdCorals2017.cpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/WCMC001_Metadata_ColdCorals2017.dbf.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/01_Data/info/arc.dir" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/02_Resources/Freiwald04ColdWaterCoralReefs.url" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/02_Resources/Thumbs.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/03_Metadata/14_001_WCMC001_ColdCorals2017_v5.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/LICENSE.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coldwatercorallocations/READ ME.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/.WCMC008_CoralReef2010_Py_v4.dbf.icloud" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/.WCMC008_CoralReef2010_Py_v4.shp.icloud" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/Metadata_CoralReefs.CPG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/Metadata_CoralReefs.dbf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/Metadata_CoralReefs.dbf.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Pt_v4.CPG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Pt_v4.dbf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Pt_v4.prj" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Pt_v4.sbn" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Pt_v4.sbx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Pt_v4.shp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Pt_v4.shp.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Pt_v4.shx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Py_v4.CPG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Py_v4.prj" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Py_v4.sbn" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Py_v4.sbx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Py_v4.shp.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/WCMC008_CoralReef2010_Py_v4.shx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/01_Data/info/arc.dir" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/02_Resources/Andrefouet06Proc10thIntCorReefSymp.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/02_Resources/WCMC-008-CoralReefs2010.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/03_Metadata/Thumbs.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/03_Metadata/WCMC008_CoralReefs2010_v4.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/LICENSE.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreeflocations/READ ME.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coralreefs.geojson" afterPath="" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/js/scripts.js" afterPath="$PROJECT_DIR$/js/scripts.js" />
@@ -22,8 +75,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="225" column="17" lean-forward="false" selection-start-line="225" selection-start-column="17" selection-end-line="225" selection-end-column="17" />
+            <state relative-caret-position="546">
+              <caret line="251" column="7" lean-forward="true" selection-start-line="251" selection-start-column="7" selection-end-line="251" selection-end-column="7" />
               <folding>
                 <element signature="n#svg#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#svg#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -35,8 +88,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="163" column="14" lean-forward="false" selection-start-line="163" selection-start-column="14" selection-end-line="163" selection-end-column="14" />
+            <state relative-caret-position="180">
+              <caret line="358" column="66" lean-forward="false" selection-start-line="358" selection-start-column="66" selection-end-line="358" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -45,8 +98,8 @@
       <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="161" column="16" lean-forward="false" selection-start-line="161" selection-start-column="16" selection-end-line="161" selection-end-column="16" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -73,6 +126,9 @@
       <find>data</find>
       <find>to</find>
       <find>close</find>
+      <find>fixed</find>
+      <find>pop</find>
+      <find>init</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -82,9 +138,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/img/coral.html" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/sources.html" />
         <option value="$PROJECT_DIR$/js/scripts.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
       </list>
     </option>
   </component>
@@ -95,9 +152,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="234" />
+    <option name="x" value="181" />
     <option name="y" value="23" />
-    <option name="width" value="1046" />
+    <option name="width" value="1099" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectView">
@@ -186,18 +243,18 @@
       <workItem from="1543029780943" duration="13995000" />
       <workItem from="1543639768311" duration="16092000" />
       <workItem from="1543898865036" duration="2385000" />
-      <workItem from="1543964766181" duration="24792000" />
+      <workItem from="1543964766181" duration="29525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57264000" />
+    <option name="totallyTimeSpent" value="61997000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="234" y="23" width="1046" height="777" extended-state="0" />
+    <frame x="181" y="23" width="1099" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939035" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -215,6 +272,25 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -320,10 +396,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sources.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="161" column="16" lean-forward="false" selection-start-line="161" selection-start-column="16" selection-end-line="161" selection-end-column="16" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -332,8 +416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="225" column="17" lean-forward="false" selection-start-line="225" selection-start-column="17" selection-end-line="225" selection-end-column="17" />
+        <state relative-caret-position="546">
+          <caret line="251" column="7" lean-forward="true" selection-start-line="251" selection-start-column="7" selection-end-line="251" selection-end-column="7" />
           <folding>
             <element signature="n#svg#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#svg#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -343,8 +427,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="163" column="14" lean-forward="false" selection-start-line="163" selection-start-column="14" selection-end-line="163" selection-end-column="14" />
+        <state relative-caret-position="180">
+          <caret line="358" column="66" lean-forward="false" selection-start-line="358" selection-start-column="66" selection-end-line="358" selection-end-column="66" />
           <folding />
         </state>
       </provider>

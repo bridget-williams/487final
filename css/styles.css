@@ -61,10 +61,15 @@ h2{
     z-index:5000;
 }
 
+.hidden{
+    display:none;
+}
+
 #trouble, #matters, #case-study, .card, #intro-text, #what-is{
     line-height: 20pt;
 }
 
+/*to top button styling*/
 #toTop {
     display: none;
     text-align: center;
@@ -93,9 +98,6 @@ h2{
     position:relative;
 }
 
-#myBtn:hover {
-    background-color: #85ccca; /* Add a dark-grey background on hover */
-}
 
 /*main menu styles*/
 #main-menu{
@@ -108,9 +110,9 @@ h2{
 }
 
 
-
 #logo{
     height: 100%;
+    align-self: flex-start;
 }
 
 #menudiv{
@@ -149,10 +151,32 @@ h2{
 
 }
 
-.hidden{
-    display:none;
+/*Sources Styles*/
+#sources{
+    width: 200px;
+    height:250px;
+    background: #FCEE9F;
+    position: absolute;
+    z-index: 10000;
+    top: 0;
+    right:0;
+    text-align: left;
 }
 
+#sources-title{
+    text-align: center;
+    margin:0;
+    padding:0;
+    font-weight: bold;
+}
+
+#close-sources{
+    color: #CC5853;
+    font-size: 24pt;
+    margin-left: 5px;
+}
+
+/*intro test styles*/
 #intro{
     grid-row: 2/3;
     grid-column: 1/5;
@@ -171,7 +195,7 @@ h2{
     color: #CC5853;
 }
 
-
+/*what is a coral styles*/
 #coral-diagram-text{
     position: absolute;
     top: 600px;
@@ -301,6 +325,7 @@ h2{
     cursor: ew-resize;
 }
 
+/*card styles for search results*/
 .card{
     padding: 15pt;
     margin: 10pt;
@@ -324,14 +349,14 @@ h2{
     font-weight: bold;
 }
 
-
+/*styling adjustments for mobile*/
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
 
     #site{
         display: grid;
         grid-template-columns: 1fr ;
-        grid-template-rows: 80px 400px 1000px 500px 670px 600px 700px 700px;
+        grid-template-rows: 80px 400px 1000px 500px 670px 600px 750px 650px;
         grid-template-areas:
                 'main-menu'
                 'intro'
@@ -347,7 +372,7 @@ h2{
         margin:0;
         padding:0;
         overflow-x: hidden;
-        margin-left:7px;
+        /*margin-left:7px;*/
     }
     h1{
         font-size: 14pt;
@@ -358,24 +383,28 @@ h2{
     }
 
     #hamburger-menu{
-        position:fixed;
+        position:absolute;
         align-self: baseline;
         flex-direction: column;
         background:#FBEDA3;
         height:250px;
         top: 55px;
-
         padding-top: 5pt;
         text-align: center;
+        right:1px;
+    }
+
+    #coral{
+        margin-top: 80px;
     }
 
     #coral-diagram-text{
         position: absolute;
-        left:30px;
-        top: 970px;
+        left:10px;
+        top: 1000px;
         width: 90%;
         background:#FBEDA3;
-        transition: .3s ease;
+        /*transition: .3s ease;*/
         padding: 10px;
     }
 
@@ -437,7 +466,6 @@ h2{
 
 
 }
-
 
 /*styles for coral svg*/
 #coral{
