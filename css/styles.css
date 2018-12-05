@@ -1,0 +1,399 @@
+/*site-wide styling*/
+body{
+    padding: 0;
+    margin:0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    color: #105A99;
+}
+
+#site{
+    display: grid;
+    grid-template-columns:  repeat(4,25%) ;
+    grid-template-rows: 80px 250px 700px 400px 500px 500px 500px;
+    grid-template-areas:
+            'main-menu'
+            'coral-diagram'
+            'trouble trouble matters matters'
+            'where'
+            'overtime'
+            'near'
+            'footer'
+;
+    max-width: 100%;
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration: none;
+    color: #105A99;
+}
+
+a:hover{
+    color: #4dabb2;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.row{
+    flex-direction: row;
+    align-items: center;
+}
+
+.col{
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 28pt;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-size: 20pt;
+    font-family: 'Montserrat', sans-serif;
+    z-index:5000;
+}
+
+#toTop {
+    display: none;
+    text-align: center;
+    height: 25px;
+    width:25px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    border: none;
+    outline: none;
+    background-color: #CC5853;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius:50%;
+    font-size: 40px;
+    transition:ease;
+    opacity: .7;
+    z-index: 1000;
+}
+
+#arrow{
+    padding: 0;
+    margin:0;
+    top:-9pt;
+    position:relative;
+}
+
+#myBtn:hover {
+    background-color: #85ccca; /* Add a dark-grey background on hover */
+}
+
+/*main menu styles*/
+#main-menu{
+    grid-column: 1/5;
+    grid-row: 1/2;
+    background: #9CF3F7;
+    padding: 10pt;
+    justify-content: space-between;
+    margin:0;
+}
+
+
+
+#logo{
+    height: 100%;
+}
+
+#menudiv{
+    height:100%;
+    width: 200px;
+    margin-top: 25px;
+    z-index:10000;
+    padding:0;
+}
+
+#hamburger{
+    height: 50%;
+    fill: #CC5853;
+    cursor: pointer;
+    z-index: 10000;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+#hamburger-menu{
+    align-self: baseline;
+    flex-direction: column;
+    background:#FBEDA3;
+    height:100%;
+    padding-top: 5pt;
+    text-align: center;
+}
+
+.hamburger-item{
+    cursor: pointer;
+    padding:5pt;
+    background:#FBEDA3;
+    width:200px;
+    position:relative;
+    text-align: center;
+
+}
+
+.hidden{
+    display:none;
+}
+
+#intro{
+    grid-row: 2/3;
+    grid-column: 1/5;
+}
+
+#intro-text{
+    margin:50px;
+    padding: 30px;
+    font-size: 16pt;
+    height: 150px;
+    width: 100%;
+    background: #F4EDCE;
+}
+
+.important{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #CC5853;
+}
+
+
+#coral-diagram-text{
+    position: absolute;
+    top: 500px;
+    right: 100px;
+    width: 200px;
+    background:#FBEDA3;
+    transition: .5s ease;
+}
+
+#what-is{
+    padding: 20px;
+}
+
+
+/*Coral diagram styles*/
+/*SVG styling at end of CSS Sheet*/
+#diagram-section{
+    grid-row: 3/4;
+    grid-column: 1/5;
+}
+
+/*Why coral is in trouble styles*/
+#trouble{
+    padding:10px;
+    grid-row: 4/5;
+    grid-column: 1/3;
+    background: #4dabb2;
+}
+
+.more{
+    color: #F4E492;
+
+}
+
+.more:hover{
+    color: #CC5853;
+}
+
+#player2{
+    grid-row: 4/5;
+    grid-column: 3/5;
+    z-index:10000;
+}
+
+#player1{
+    grid-row: 4/5;
+    grid-column: 1/3;
+    z-index:10000;
+}
+
+#closeVideo2{
+    font-size: 26pt;
+    color: #CC5853;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    text-align: left;
+    left: 0;
+    z-index: 50000;
+    right: 200px;
+    background:black;
+}
+
+#closeVideo1{
+    font-size: 26pt;
+    color: #CC5853;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    text-align: right;
+    right: 0;
+    z-index: 50000;
+    background:black;
+}
+
+/*Why Coral matters styles*/
+#matters{
+    padding:10px;
+    grid-row: 4/5;
+    grid-column: 3/5;
+    background: #9cf3f7;
+}
+
+/*Coral Locations styles*/
+#locations{
+    grid-row:5/6;
+    grid-column: 1/5;
+
+}
+
+#locationsTitle{
+    grid-row:5/6;
+    grid-column: 1/5;
+}
+
+/*Case Study Styles*/
+#case-study{
+    grid-row:6/7;
+    grid-column: 1/5;
+    background: #85ccca;
+}
+/*Corals near me styles*/
+#near-me{
+    grid-row:7/8;
+    grid-column: 1/5;
+}
+
+#search, #place{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    color: #105A99;
+}
+
+#search{
+    background: #F4E492;
+}
+
+#results{
+    overflow-x: auto;
+    align-content: flex-start;
+}
+
+
+.card{
+    padding: 15pt;
+    margin: 10pt;
+    background: #e5aeaa;
+    color: #105A99;
+    height: auto;
+    width: 900px;
+}
+
+.cardText{
+    width: 300px;
+    height: auto;
+}
+
+.photo{
+    width: 120px;
+}
+
+.subhead{
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    #site{
+        display: grid;
+        grid-template-columns:  repeat(4,25%) ;
+        grid-template-rows: 80px 250px 600px 400px 500px 500px 500px 1000px;
+        grid-template-areas:
+                'main-menu'
+                'coral-diagram'
+                'trouble'
+                'matters'
+                'where'
+                'overtime'
+                'near'
+                'footer'
+    ;
+        max-width: 100%;
+        margin:0;
+        padding:0;
+    }
+
+    #diagram-section, #locations, #matters, #trouble{
+        grid-column: 1/5;
+    }
+
+    #trouble{
+        grid-row: 4/5 ;
+    }
+
+    #matters{
+        grid-row: 5/6 ;
+    }
+    #player2{
+        grid-row: 5/6 ;
+        grid-column: 3/5;
+        z-index:10000;
+    }
+
+    #locations{
+        grid-row: 6/7 ;
+    }
+
+    #case-study{
+        grid-row: 7/8 ;
+    }
+
+    #near-me{
+        grid-row: 8/9;
+    }
+
+
+
+
+}
+
+
+/*styles for coral svg*/
+#coral{
+    width: 500px;
+}
+.st0{fill:#9CF3F7;}
+.st1{fill:none;stroke:#CC5E5E;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:1,5;}
+.st2{fill:#85CCCA;}
+.st3{fill:#FF7373;stroke:#EF7373;stroke-width:4;stroke-miterlimit:10;}
+.st4{fill:#FF7373;}
+.st5{fill:none;stroke:#FCEE9F;stroke-width:4;stroke-miterlimit:10;}
+.st6{fill:#FFFFFF;}
+.st7{fill:#EAE1DC;stroke:#F7F5D5;stroke-width:3;stroke-miterlimit:10;}
+.st8{fill:#9CF3F7;stroke:#85CCCA;stroke-miterlimit:10;}
+.st9{fill:#F4EDCE;}
+.st10{fill:#FFF1A1;stroke:#FCEE9F;stroke-width:4;stroke-miterlimit:10;}
+.st11{fill:none;stroke:#FCEE9F;stroke-width:9;stroke-miterlimit:10;}
+.st12{fill:none;stroke:#FCEE9F;stroke-linecap:round;stroke-linejoin:round;}
+.st13{fill:none;stroke:#FF7373;stroke-width:5;stroke-miterlimit:10;}
+.st14{fill:none;stroke:#FF7373;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:1,5;}
+.st15{fill:none;stroke:#FF7373;stroke-width:9;stroke-linejoin:round;}
+.st16{fill:#F4E492;stroke:#F4F1C9;stroke-width:2;stroke-miterlimit:10;}
+.st17{fill:none;stroke:#F4C887;stroke-linecap:round;stroke-miterlimit:10;}
+.st18{fill:#F4BAB0;}
+.st19{fill:none;stroke:#E5AEAA;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;}
